@@ -49,3 +49,11 @@ int* CacciatorePreda(const char* v, size_t v_size, int u)
 	return vcurr;
 
 }
+
+int main(void) {
+	const char v[] = { 'c','C','c','c','p','p'};
+	size_t v_size = 6;
+	int u = 2;
+	int* r = CacciatorePreda(v, v_size, u);
+	return 0;
+}
